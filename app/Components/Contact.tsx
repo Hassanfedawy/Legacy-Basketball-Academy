@@ -128,7 +128,7 @@ const ContactPage = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="3x" />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTiktok} size="3x" />
             </a>
   </div>

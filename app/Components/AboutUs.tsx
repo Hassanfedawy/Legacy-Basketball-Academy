@@ -22,7 +22,7 @@ const AboutPage = () => {
       <motion.h1
         className="text-4xl font-bold text-center mb-12"
         initial="hidden"
-        animate={inView ? "visible" : "hidden"}
+        animate={"visible"}
         variants={fadeIn}
         transition={{ duration:0.5 }}
         ref={ref}
@@ -34,7 +34,7 @@ const AboutPage = () => {
       <motion.section
         className="mb-12"
         initial="hidden"
-        animate={inView ? "visible" : "hidden"}
+        animate={"visible"}
         variants={fadeIn}
         transition={{ duration:0.5}}
         ref={ref}
@@ -43,7 +43,7 @@ const AboutPage = () => {
         <motion.p
           className="text-gray-700"
           initial="hidden"
-          animate={inView ? "visible" : "hidden" }
+          animate={"visible" }
           variants={scaleUp}
           transition={{ duration:0.5 }}
         >
@@ -52,7 +52,7 @@ const AboutPage = () => {
         <motion.p
           className="mt-4 text-gray-700"
           initial="hidden"
-          animate={ inView ? "visible" : "hidden" }
+          animate={ "visible" }
           variants={scaleUp}
           transition={{ duration:0.5 }}
         >
