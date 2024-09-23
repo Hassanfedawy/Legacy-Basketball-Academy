@@ -59,8 +59,9 @@ const GalleryPage = () => {
         transitionTime={500} 
         showArrows={true}
         showThumbs={false}
-      >`
+      >
         {groupedItems.map((group, index) => (
+          // Wrap each slide in a single parent div to avoid the error
           <div key={index} className="grid grid-cols-5 gap-2 p-4 h-[500px]">
             {group.map((item, subIndex) => (
               <div key={`${index}-${subIndex}`} className="relative w-full h-[200px]">
