@@ -1,5 +1,4 @@
-
-import React from 'react'
+import Nav from "./Components/Nav";
 import HeroSection from './Components/HeroSection'
 import QuickInfo from './Components/QuickInfo'
 import AboutPage from './Components/AboutUs'
@@ -12,6 +11,7 @@ import ContactPage from './Components/Contact'
 function Home() {
   return (
     <div >
+      <Nav/>
      <HeroSection/>
      <QuickInfo/> 
      <GalleryPage/>

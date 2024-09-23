@@ -10,7 +10,7 @@ function HeroSection() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/Videos/img 5052.mp4"
+        src="/Videos/Img 5052.mp4"
         autoPlay
         loop
         muted
@@ -22,7 +22,7 @@ function HeroSection() {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 text-white">
         <h1
-          className="text-4xl md:text-6xl font-bold"
+          className="text-3xl md:text-5xl font-bold"
           
           
         >
@@ -30,7 +30,7 @@ function HeroSection() {
         </h1>
 
         <p
-          className="mt-4 text-lg md:text-xl text-secondary-text"
+          className="mt-4 text-base md:text-lg text-secondary-text"
         
         >
           Achieve your fitness goals and dominate the court!
@@ -41,7 +41,7 @@ function HeroSection() {
             href="#Home"
             className="bg-button-bg text-black py-3 px-6 rounded-md shadow-md hover:bg-button-hover transition duration-300"
   >  Join Now</Link>
-  
+
           <Link
             href="#Programs"
             className="ml-4 bg-transparent border border-white py-3 px-6 rounded-md hover:bg-white hover:text-black transition duration-300"
